@@ -1,4 +1,4 @@
-# Read-Host
+# Read-Host : 사용자의 입력을 받는다.
 # [string]::IsNullOrWhiteSpace() 
 # Write-Host
 # [System.Environment]::GetFolderPath
