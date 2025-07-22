@@ -7,6 +7,7 @@
 # Join-Path : 각각의 위치를 이어 붙인다.
 # Out-File : 파일에 입력값을 출력한다.
 # Invoke-RestMethod : URL에서 값을 받아온다.
+# Invoke-Expression : 문자열로 된 파워쉘 스크립트를 실행한다.
 
 function Create-irm {
     # Prompt user for choice
