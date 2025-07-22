@@ -1,3 +1,10 @@
+# Read-Host
+# [string]::IsNullOrWhiteSpace() 
+# Write-Host
+# [System.Environment]::GetFolderPath
+# Join-Path
+# Out-File
+
 function Create-irm {
     # Prompt user for choice
     $choice = Read-Host "Do you want to do Basic or BASE64 + M.E.? (Enter 'Basic' or 'BASE64')"
