@@ -1,9 +1,12 @@
 # Read-Host : 사용자의 입력을 받는다.
 # [string]::IsNullOrWhiteSpace() 
-# Write-Host
-# [System.Environment]::GetFolderPath
-# Join-Path
-# Out-File
+# 1. [string] == [System.String]의 축약형
+# 2. [Sysytem.String]::IsNullOrWhiteSpace()로 사용해도 된다.
+# Write-Host : 사용자에게 해당 내용을 출력한다.
+# [System.Environment]::GetFolderPath : 폴더의 위치를 구해온다.
+# Join-Path : 각각의 위치를 이어 붙인다.
+# Out-File : 파일에 입력값을 출력한다.
+# Invoke-RestMethod : URL에서 값을 받아온다.
 
 function Create-irm {
     # Prompt user for choice
